@@ -6,7 +6,7 @@ To create the bundle.js the following command is given from the project folder:
 >npm run build
 
 The package.json is as follow:
-{
+```{
   "name": "recipes-app",
   "version": "1.0.0",
   "description": "",
@@ -31,4 +31,4 @@ The package.json is as follow:
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
-}
+}```
