@@ -31,4 +31,4 @@ The package.json is as follow:
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
-}```
+}
