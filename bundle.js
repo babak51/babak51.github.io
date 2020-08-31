@@ -218,6 +218,77 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+/***/ "./src/components/Ingredient.js":
+/*!**************************************!*\
+  !*** ./src/components/Ingredient.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Ingredient; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n// ./src/components/Ingredient.js\n\nfunction Ingredient(_ref) {\n  var amount = _ref.amount,\n      measurement = _ref.measurement,\n      name = _ref.name;\n  reurn( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", null, amount, \" \", measurement, \" \", name));\n}\n\n//# sourceURL=webpack:///./src/components/Ingredient.js?");
+
+/***/ }),
+
+/***/ "./src/components/IngredientsList.js":
+/*!*******************************************!*\
+  !*** ./src/components/IngredientsList.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return IngredientsList; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Ingredient__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Ingredient */ \"./src/components/Ingredient.js\");\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\n\n\nfunction IngredientsList(_ref) {\n  var list = _ref.list;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"ul\", {\n    className: \"ingredients\"\n  }, list.map(function (ingredient, i) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Ingredient__WEBPACK_IMPORTED_MODULE_1__[\"default\"], _extends({\n      key: i\n    }, ingredient));\n  }));\n}\n\n//# sourceURL=webpack:///./src/components/IngredientsList.js?");
+
+/***/ }),
+
+/***/ "./src/components/Instructions.js":
+/*!****************************************!*\
+  !*** ./src/components/Instructions.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Instructions; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n// ./src/components/Instructions.js\n\nfunction Instructions(_ref) {\n  var title = _ref.title,\n      steps = _ref.steps;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"section\", {\n    className: \"instructions\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h2\", null, title), steps.map(function (s, i) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", {\n      key: i\n    }, s);\n  }));\n}\n\n//# sourceURL=webpack:///./src/components/Instructions.js?");
+
+/***/ }),
+
+/***/ "./src/components/Menu.js":
+/*!********************************!*\
+  !*** ./src/components/Menu.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Recipe__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Recipe */ \"./src/components/Recipe.js\");\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\n// ./src/componenets/Menu.js\n\n\n\nfunction Menu(_ref) {\n  var recipes = _ref.recipes;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"article\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"header\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Delicious Recipes\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"recipes\"\n  }, recipes.map(function (recipe, i) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Recipe__WEBPACK_IMPORTED_MODULE_1__[\"default\"], _extends({\n      key: i\n    }, recipe));\n  })));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Menu);\n\n//# sourceURL=webpack:///./src/components/Menu.js?");
+
+/***/ }),
+
+/***/ "./src/components/Recipe.js":
+/*!**********************************!*\
+  !*** ./src/components/Recipe.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _IngredientsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./IngredientsList */ \"./src/components/IngredientsList.js\");\n/* harmony import */ var _Instructions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Instructions */ \"./src/components/Instructions.js\");\n// ./src/components/Recipe.js\n\n\n\n\nfunction Recipe(_ref) {\n  var name = _ref.name,\n      ingredients = _ref.ingredients,\n      steps = _ref.steps;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"section\", {\n    id: name.toLowerCase().replace(/ /g, \"-\")\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_IngredientsList__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    list: ingredients\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Instructions__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    title: \"Cooking Instructions\",\n    steps: steps\n  }));\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Recipe);\n\n//# sourceURL=webpack:///./src/components/Recipe.js?");
+
+/***/ }),
+
+/***/ "./src/data/recipes.json":
+/*!*******************************!*\
+  !*** ./src/data/recipes.json ***!
+  \*******************************/
+/*! exports provided: 0, 1, default */
+/***/ (function(module) {
+
+eval("module.exports = JSON.parse(\"[{\\\"name\\\":\\\"Baked Salmon\\\",\\\"ingredients\\\":[{\\\"name\\\":\\\"Salmon\\\",\\\"amount\\\":1,\\\"measurement\\\":\\\"l lb\\\"},{\\\"name\\\":\\\"Pine Nuts\\\",\\\"amount\\\":1,\\\"measurement\\\":\\\"cup\\\"},{\\\"name\\\":\\\"Butter Lettuce\\\",\\\"amount\\\":2,\\\"measurement\\\":\\\"cups\\\"},{\\\"name\\\":\\\"Yellow Squash\\\",\\\"amount\\\":1,\\\"measurement\\\":\\\"med\\\"},{\\\"name\\\":\\\"Olive Oil\\\",\\\"amount\\\":0.5,\\\"measurement\\\":\\\"cup\\\"},{\\\"name\\\":\\\"Garlic\\\",\\\"amount\\\":3,\\\"measurement\\\":\\\"cloves\\\"}],\\\"steps\\\":[\\\"Preheat the oven to 350 degrees.\\\",\\\"Spread the olive oil around a glass baking dish.\\\",\\\"Add the yellow squash and place in the oven for 30 mins.\\\",\\\"Add the salmon, garlic, and pine nuts to the dish.\\\",\\\"Bake for 15 minutes.\\\",\\\"Remove from oven. Add the lettuce and serve.\\\"]},{\\\"name\\\":\\\"Fish Tacos\\\",\\\"ingredients\\\":[{\\\"name\\\":\\\"Whitefish\\\",\\\"amount\\\":1,\\\"measurement\\\":\\\"l lb\\\"},{\\\"name\\\":\\\"Cheese\\\",\\\"amount\\\":1,\\\"measurement\\\":\\\"cup\\\"},{\\\"name\\\":\\\"Iceberg Lettuce\\\",\\\"amount\\\":2,\\\"measurement\\\":\\\"cups\\\"},{\\\"name\\\":\\\"Tomatoes\\\",\\\"amount\\\":2,\\\"measurement\\\":\\\"large\\\"},{\\\"name\\\":\\\"Tortillas\\\",\\\"amount\\\":3,\\\"measurement\\\":\\\"med\\\"}],\\\"steps\\\":[\\\"Cook the fish on the grill until cooked through.\\\",\\\"Place the fish on the 3 tortillas.\\\",\\\"Top them with lettuce, tomatoes, and cheese.\\\"]}]\");\n\n//# sourceURL=webpack:///./src/data/recipes.json?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -226,7 +297,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n// ./src/index.js\n\n //import Menu from \"./components/Menu\";\n//import data from \"./data/recipes.json\";\n\nObject(react_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Menu, {\n  recipes: data\n}), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Menu */ \"./src/components/Menu.js\");\n/* harmony import */ var _data_recipes_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data/recipes.json */ \"./src/data/recipes.json\");\nvar _data_recipes_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data/recipes.json */ \"./src/data/recipes.json\", 1);\n// ./src/index.js\n\n\n\n\nObject(react_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Menu__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n  recipes: _data_recipes_json__WEBPACK_IMPORTED_MODULE_3__\n}), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
