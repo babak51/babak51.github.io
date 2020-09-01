@@ -1,6 +1,6 @@
 # babak51.github.io
 This is an exercise is using webpack to bundle a React sample application.
-All that the server needs are the index.html with has a div element with id="root", and a bundle.js file.
+All that the server needs are the index.html which has a div element with an attribute id="root", and a bundle.js file.
 
 To create the bundle.js the following command is given from the project folder:
 >npm run build
